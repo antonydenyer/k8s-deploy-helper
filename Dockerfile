@@ -1,4 +1,4 @@
-FROM docker:18.06.3-ce-dind
+FROM docker:latest
 
 ENV HELM_VERSION="2.13.1" \
   KUBECTL_VERSION="1.12.6" \
